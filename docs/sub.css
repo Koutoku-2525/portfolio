@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Alice Blue */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease;
+  }
+
+  header{
+    background-color: #6096B4;
+    color: #EEEEEE; 
+    font-size: 100%;
+    text-align: center;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+
+  #abstract{
+    margin-top: 125px;
+  }
+
+  h2 {
+    color: #000000; 
+    border-bottom: 5px double #000000;
+  }
