@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>こうとくのポートフォリオ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+</head>
+<body>
+
+    <header id="header">
+        <h1 class="head-portfolio">
+            <span class="name">Koutoku's</span>
+            <span class="portfolio">Portfolio</span>
+        </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#achieve">Achievements & History</a></li>
+        </ul>
+    </nav>
+    
+
+    <section id="profile">
+        <h2>Profile</h2>
+        <img src="img/icon.jpg" align="left" alt="Koutokuのアイコン" class="profile" />
+        <div class="introduction">
+            <p>
+                名前 : 大塚 港太 / Otsuka Kota <br>
+                所属 : 大阪公立大学工業高等専門学校 / OMUCT<br>
+                学年 : メカトロニクスコース<br>
+                部活 : ろぼっと倶楽部<br>
+            </p>
+            <p>小学生から工作が大好きで、ロボコンに興味があったため高専へ入学。<br>
+                ろぼっと倶楽部に所属しており2020~2023年の高専ロボコンに参加していました。<br>
+                ロボコンでは主に足回りのハードを担当していました。現在はロボットを自分で動かせるように制御を勉強を頑張っています。
+            </p>
+        </div>
+        
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="icon">
+            <h3>Mechanic</h3>
+            <ul>
+                <li>
+                    <img src="img/creo.png" alt="creo" class="creo">
+                </li>
+                <li>
+                    <img src="img/solidworks.png" alt="solidworks" class="solid">
+                </li>
+                <li>
+                    <img src="img/fusion360.png" alt="Fusion360" class="fusion">
+                </li>
+            </ul>
+            <h3>Circuit</h3>
+            <ul>
+                <li>
+                    <img src="img/kicad.png" alt="kicad" class="kicad">
+                </li>
+            </ul>
+            <h3>Program</h3>
+            <ul>
+                <li>
+                    <img src="img/arduino.png" alt="arduino" class="arduino">
+                </li>
+                <li>
+                    <img src="img/c.png" alt="C">
+                </li>
+                <li>
+                    <img src="img/gas.png" alt="Google Apps Script" class="gas">
+                </li>
+                <li>
+                    <img src="img/python.png" alt="python" class="python">
+                </li>
+                <li>
+                    <img src="img/html.png" alt="html" class="html">
+                </li>
+                <li>
+                    <img src="img/css.png" alt="css" class="css">
+                </li>
+                <li>
+                    <img src="img/Matlab.png" alt="matlab" class="matlab">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="work">
+        <h2>Work</h2>
+        <div class="grid">
+            <article class="tokken" style="grid-column: 1; grid-row: 1;">
+                <img src="img/kuragearm.jpg" alt="クラゲアーム" class="size"/>
+                <div class="text">
+                    <p3>クラゲの捕獲方法の研究</p3>
+                    <p>高専3年生の特別研究という授業で『クラゲの大量発生問題と食糧不足問題を同時の解決する方法』について研究し、私と班員の2人でクラゲを捕獲するアームを制作しました。</p>
+                </div>
+            </article>
+            <article class="kisoken" style="grid-column: 2; grid-row: 1;">
+                <img src="img/kisoken.png" alt="皿サーバ" class="size"/>
+                <div class="text">
+                    <p3>回転寿司店のDX化に関する制作実習</p3>
+                    <p>高専4年生の基礎研究の授業で『回転寿司店をメカトロ技術を駆使してDX化する』という概要で皿を一枚ずつレーン落とす機構『皿サーバ』を制作しました。</p>
+                </div>
+            </article>
+            <article class="steer" style="grid-column: 1; grid-row: 2;">
+                <img src="img/steering.jpg" alt="四輪独立ステア" class="size"/>
+                <div class="text">
+                    <p3>四輪独立ステアの開発</p3>
+                    <p>高専ロボコン2023で使用した四輪の駆動輪がそれぞれ独立に操舵できる全方位移動機構の開発を半年かけて行いました。</p>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+    <section id="achieve">
+        <h2>Achievements & History</h2>
+        <!-- <ul>
+            <li class="robo-2021">
+                高専ロボコン2021『機構神コウダイオー』地区大会特別賞(本田技研工業株式会社)
+                <img src="img/kodaio.jpg" alt="kodaio">
+            </li>
+            <li class="robo-2022">
+                高専ロボコン2022『Airs Rock』全国大会特別賞(マブチ―モーター株式会社)
+                <img src="img/airsrock.jpg" alt="airsrock">
+            </li>
+            <li class="robo-2023">
+                高専ロボコン2023『鴉』全国大会優勝
+                <img src="img/yusyou.jpg" alt="karasu">
+            </li>
+            <li class="core">
+                The Championship Robotics Engineers『卍ひんじ卍会』競技優勝,革新的技術賞
+                <img src="img/core.jpg" alt="core">
+            </li> -->
+        </ul>
+        <div class="timeline">
+            <ul class="timeline-list">
+                <li class="timeline-list-item">
+                    <div class="date">2021年11月</div>
+                    <div class="content">
+                        高専ロボコン2021『機構神コウダイオー』地区大会特別賞(本田技研工業株式会社)
+                        <img src="img/kodaio.jpg" alt="kodaio" class="history">
+                    </div>
+                </li>
+                <li class="timeline-list-item">
+                    <div class="date">2022年11月</div>
+                    <div class="content">
+                        高専ロボコン2022『Airs Rock』全国大会特別賞(マブチ―モーター株式会社)
+                        <img src="img/airsrock.jpg" alt="airsrock" class="history">
+                    </div>
+                </li>
+                <li class="timeline-list-item">
+                    <div class="date">2023年03月</div>
+                    <div class="content">
+                        The Championship Robotics Engineers『卍ひんじ卍会』競技優勝,革新的技術賞
+                        <img src="img/core.jpg" alt="core" class="history">
+                    </div>
+                </li>
+                <li class="timeline-list-item">
+                    <div class="date">2023年11月</div>
+                    <div class="content">
+                        高専ロボコン2023『鴉』全国大会優勝
+                        <img src="img/yusyou.jpg" alt="karasu" class="history">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+        
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            Mail : R20025@st.omu.ac.jp<br>
+            X : @Koutokuuuuuu
+        </p>
+    </section>
+
+    <footer>
+        <p>Contact: R20025@st.omu.ac.jp</p>
+    </footer>
+
+    <script src="scroll.js"></script>
+
+</body>
+</html>
