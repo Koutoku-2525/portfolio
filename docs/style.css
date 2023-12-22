@@ -14,11 +14,6 @@ header {
   text-align: center;
   padding: 50px;
   transition: background-color 0.3s ease;
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%; /* ヘッダーを画面全体に広げる */
   z-index: 2;
 }
 
@@ -36,12 +31,6 @@ nav {
   padding: 10px;
   text-align: center;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin-top: 200px;
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%; /* ヘッダーを画面全体に広げる */
   z-index: 2;
 }
 
@@ -78,10 +67,6 @@ nav a:hover {
 .introduction{
   text-align: left;
   margin-left: 250px;
-}
-
-section#profile{
-  margin-top: 250px;
 }
 
 section {
