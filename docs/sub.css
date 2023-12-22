@@ -26,6 +26,14 @@ body {
     margin-top: 125px;
   }
 
+  .firststeer{
+    display: flex;
+  }
+
+  img {
+    border-radius: 10px;
+  }
+
   h2 {
     color: #000000; 
     border-bottom: 5px double #000000;
