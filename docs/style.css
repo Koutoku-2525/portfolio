@@ -104,6 +104,24 @@ h3.mechanic::before{
   color: var(--theme-color-2);
 }
 
+h3.circuit::before{
+  position: relative;
+  font-weight: bold;
+  font-family: "Font Awesome 6 Free";
+  content: "\e4e2";
+  font-size: 85%;
+  color: var(--theme-color-2);
+}
+
+h3.Program::before{
+  position: relative;
+  font-weight: bold;
+  font-family: "Font Awesome 6 Free";
+  content: "\f390";
+  font-size: 85%;
+  color: var(--theme-color-2);
+}
+
 .grid{
   display: grid;
 }
