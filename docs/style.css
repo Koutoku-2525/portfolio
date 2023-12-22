@@ -94,6 +94,15 @@ h2 {
   object-fit: cover;
 }
 
+h3.mechanic::before{
+  position: relative;
+  font-weight: bold;
+  font-family: "Font Awesome 6 Free";
+  content: "\f085";
+  font-size: 85%;
+  color: var(--theme-color-2);
+}
+
 .grid{
   display: grid;
 }
