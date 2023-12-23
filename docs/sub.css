@@ -30,9 +30,40 @@ body {
     margin-top: 125px;
   }
 
-  .firststeer{
-    display: flex;
+  img{
+    max-width: 80%;
   }
+
+  .finalsteer{
+    display: grid;
+    padding-left: 4%;
+    padding-right: 4%;
+    grid-template-columns: auto;
+    column-gap: 10px;
+  }
+
+  .light{
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: end;
+  }
+
+  .steer{
+    grid-row: 1;
+    grid-column: 3;
+    justify-self: start;
+  }
+
+  .responsive {
+    width: 80%;
+    aspect-ratio: 16/9;
+    }
+
+  .setsumei{
+    grid-row: 1;
+    grid-column: 2;
+  }
+
 
   img {
     border-radius: 10px;
