@@ -59,6 +59,27 @@ body {
     grid-column: 2;
   }
 
+  .toku{
+    display: grid;
+    padding-left: 4%;
+    padding-right: 4%;
+    grid-template-columns: auto;
+    column-gap: 10px;
+  }
+  .hokaku{
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .jisyaku{
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .arm{
+    grid-row: 1;
+    grid-column: 3;
+  }
 
   img {
     border-radius: 10px;
